@@ -1,0 +1,187 @@
+/* RESET CSS - Importante para rodar em todos navegadores.*/ 
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none; /**/
+}
+img{
+    max-width: 100%; /*máximo do tamanho da imagem*/
+}
+
+ul{
+    list-style: none; /*tira as bolias e todo estilo padrão das listas*/
+}
+a{
+    text-decoration: none; /*Aconragem da página*/
+}
+h2{
+    font-size: 1.5em; /*coloca estilo no titulo*/
+    color: #333; 
+
+}
+p{
+    font-size: 1em;
+    color: #777 /*coloca estilo no paragráfo*/
+}
+
+/*CABEÇALHO*/
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+
+}
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/logo.png);
+    font-size: 0;
+}
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #333;
+    padding: 10px 8%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+.menu li a:hover{
+    color: #fff;
+}
+
+/* SOCIAL ICONS */
+.social-icons{
+    float: right;
+
+}
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+.btn-facebook:hover{
+    color:rgb(55, 0, 255)
+}
+.btn-twitter:hover{
+    color:rgb(0, 238, 255)
+}
+.btn-google:hover{
+    color:mediumseagreen
+}
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom: 15px;
+
+}
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+}
+.sobre p{
+    text-align: justify;
+}
+
+/* MAPA */
+
+.onde-estamos h2{
+    padding: 7px;
+}
+
+.onde-estamos p{
+    padding: 5xp;
+}
+
+/* CONTATOS */
+.contatos{
+    float: left;
+    padding: 5px 10px;
+}
+.contatos-icons img{
+    align-items: center;
+    margin: 0px 14px;  
+}
+.contatos-icons{
+    width: 20px;
+    text-align: center;
+    float: left;
+    padding: 5px 0px;
+}
+.contatos a{
+    color: #333;
+}
+.contatos-icons a{
+    color: #333;
+}
+.contatos h1{   
+    padding: 8px 0;
+}
+/* FINAL DA PÁGINA */
+.final-pagina {
+    width: 100%;
+    color: #13c7ae;
+    float: left;
+    padding: 50px 8%;
+    background-color: #333;
+}
+.final-pagina input{
+    padding: 15px;
+    border: 1px solid #13c7ae;
+    border-radius: 7px;
+    background: transparent;
+    color: azure;
+
+}
+.final-pagina h1{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 0px;
+} 
+.final-pagina h3{
+    float: right;
+}
